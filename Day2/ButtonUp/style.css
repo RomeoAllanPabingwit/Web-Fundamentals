@@ -1,0 +1,39 @@
+body {
+    height: 500px;
+}
+
+.buttons {
+    margin: 40px;
+
+}
+
+.top {
+    border-radius: 25px;
+    border: 2px solid rgb(81, 181, 182);
+    width: 130px;
+    height: 25px;
+    color: rgb(81, 181, 182);
+
+}
+
+.middle {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+    font-size: 31px;
+    color: white;
+    background-color: rgb(1, 209, 179);
+    border: none;
+
+
+}
+
+.bottom {
+    width: 150px;
+    height: 25px;
+    margin: 8px;
+    background-color: rgb(43, 120, 228);
+    color: white;
+    box-shadow: 4px 3px black;
+}

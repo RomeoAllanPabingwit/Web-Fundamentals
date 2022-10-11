@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form action="">
+    <div>
+        <label for="first_name">First Name: *</label> 
+        <input type="text" name="first_name" id="first_name">
+    </div>
+    <div>
+        <label for="last_name">Last Name: *</label>
+        <input type="text" name=">Last Name" id="last_name">
+    </div>
+    <div>
+        <label for="email_address">Email Address: *</label>
+        <input type="text" name=">Email Address" id="email_address">
+    </div>
+    <div>
+        <label for="password">Password: *</label>
+        <input type="password" name="Password" id="password">
+    </div>
+    <div>
+        <label for="confirm_password">Confirm Password: *</label> 
+        <input type="password" name="Confirm Password" id="confirm_password">
+    </div>
+    <div>
+        <label for="birthday">Birthday:</label> 
+        <input type="date" name="Date" id="birthday">
+    </div>
+    <label>Gender Identity:</label> 
+    <div class="selection">
+        <label><input type="radio">Male</label>
+        <label><input type="radio">Female</label>
+        <label><input type="radio">Non-Binary</label>
+        <label><input type="radio">I prefer not to answer</label>
+    </div>
+    <div>
+        <p>A short discription about myself:</p>
+        <textarea name="comment" cols="30" rows="3"></textarea>
+    </div>
+    <label>Favorite language:</label> 
+    <select name="language">
+        <option>Python</option>
+        <option>JavaScript</option>
+        <option>Java</option>
+        <option>C#</option>
+    </select>
+    <div>
+        <input type="checkbox" name="accept" id="accept">
+        <label for="accept">Yes, I would like to recieve periodic email updates</label>
+    </div>
+    <input type="submit" value="Create Account">
+    <p>* Indicates a required field</p>
+</form>
+</body>
+</html>

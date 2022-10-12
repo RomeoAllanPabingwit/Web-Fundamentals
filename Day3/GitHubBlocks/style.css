@@ -1,0 +1,43 @@
+* {
+    padding: 15px;
+    margin: 0px;
+}
+body {
+    background-color: rgb(247,247,243);
+}
+img {
+    height: 200px;
+}
+
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: Poppins, sans-serif;;
+}
+.top {
+    background-color: rgb(78,186,255);
+    display: flex;
+    justify-content: space-between;
+}
+.middle {
+    background-color: rgb(216,174,170);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom {
+    background-color: rgb(252,252,255);
+    display: flex;
+    justify-content: space-between;
+}
+.info {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+}
+h4 {
+    color: gray;
+    
+}

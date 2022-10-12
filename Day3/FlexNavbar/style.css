@@ -1,0 +1,32 @@
+.nav {
+    background-color: rgba(65, 61, 61, 0.89);
+    color: white;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    margin-left: 10px;
+    font-size: 50px;
+    display: flex;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 27%;
+    justify-content: space-around;
+}
+    
+.btn {
+    background-color: aqua;
+    columns: white;
+    font-size: 20px;
+    box-shadow: 2px 2px black;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
